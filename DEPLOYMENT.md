@@ -30,12 +30,6 @@ docker compose -f docker-compose.prod.yml pull
 docker compose -f docker-compose.prod.yml up -d
 ```
 
-Or build the Assaf images locally from this copy:
-
-```bash
-docker compose -f docker-compose.prod.yml up -d --build
-```
-
 View logs:
 
 ```bash
